@@ -1,0 +1,15 @@
+{
+  "name": "node-tut",
+  "version": "1.0.0",
+  "description": "blog website",
+  "type" : "module",
+  "main": "optimal-request.js",
+  "scripts": {
+    "dev": "nodemon optimal-request"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "digit-to-word-converter": "^1.0.5"
+  }
+}

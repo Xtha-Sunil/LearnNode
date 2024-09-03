@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+  <body>
+    <%- include("./partials/nav.ejs") %> <% if(blogs.length > 0) { %>
+    <h2>All Blogs</h2>
+    <% blogs.forEach(blog => { %>
+    <h2 class="title"><%= blog.title %></h2>
+    <p class="snippet"><%= blog.snippet %></p>
+    <% }) } else { %>
+    <h2>No blogs</h2>
+    <% } %> <%- include("./partials/footer.ejs") %>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head.ejs") %>
+  <body>
+    <%- include("./partials/nav") %>
+
+    <div class="create-blog content">
+      <form>
+        <label for="title">Blog title:</label>
+        <input type="text" id="title" required />
+        <br />
+
+        <label for="snippet">Blog Snippet:</label>
+        <input type="text" id="snippet" required />
+        <br />
+
+        <label for="body">Blog body:</label>
+        <textarea id="body" required></textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+    <%- include("./partials/footer.ejs") %>
+  </body>
+</html>
