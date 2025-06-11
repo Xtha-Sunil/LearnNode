@@ -9,12 +9,12 @@
    - Js can only run in the browser but node runs on computer or serer.
    - Js is limited to the browser specific functionality, interactions, AJAX but node can interact with DB, creat web servers, file manipulation.
 
-3. V8 ngine is developed by google which compiles JS code to machine code.
+3. V8 engine is developed by google which compiles JS code to machine code.
 
 4. Advantages
 
    - No need to learn new language.
-   - Can share code between front and back end
+   - Can share code between front end and back end
    - Huge amouunt of third party packages and tools.
 
 5. streams and buffer
